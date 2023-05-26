@@ -11,6 +11,8 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
+        with:
+          repository: AmanWasti9/Bootcamp2023Sample
 
       - name: Setup Node.js
         uses: actions/setup-node@v2-beta
